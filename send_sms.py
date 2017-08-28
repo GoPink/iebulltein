@@ -22,12 +22,12 @@ message =sys.argv[2]+'\n'+sys.argv[3]+'\n'+'indi : '+sys.argv[4]
 # Set your username and sender name.
 # Sender name must alphanumeric and 
 # between 3 and 11 characters in length.
-username = 'cherish243@gmail.com'
+username = '--yourname--'
 sender = 'ky'
 
 # Your unique hash is available from the docs page
 # https://control.txtlocal.co.uk/docs/
-hash = '5a8ec1c462e17859fae4ad3169c2a88d3aeee735'
+hash = 'your hash'
 
 # Set the phone number you wish to send
 # message to.
