@@ -1,9 +1,9 @@
 <?php
 	
-	$db_host='iebulletin';
-	$db_user='iebulletin';
-	$db_passwd='dlwl6414';
-	$db_name='iebulletin';
+	$db_host='host_name';
+	$db_user='user_name';
+	$db_passwd='your_passwd';
+	$db_name='your_name';
 	$conn=mysqli_connect($db_host, $db_user, $db_passwd, $db_name);
 
 	if(mysqli_connect_errno($conn)){
@@ -75,10 +75,10 @@
 		echo $data;
 	}
 	else{	
-		$db_host='iebulletin';
-		$db_user='iebulletin';
-		$db_passwd='dlwl6414';
-		$db_name='iebulletin';
+		$db_host='host_name';
+		$db_user='user_name';
+		$db_passwd='your_passwd';
+		$db_name='your_name';
 		$conn=mysqli_connect($db_host, $db_user, $db_passwd, $db_name);
 
 		if(mysqli_connect_errno($conn)){
@@ -96,8 +96,7 @@
 				$data='82'.$data;
 		}
 		echo $data."\n";
-	//	$myquery='insert into USER(id, tel) values("[1]", '.$data.')';
-		$myquery='update USER set tel='.$data.'  where id="[229, 134, 214, 101, 208]"';
+		$myquery='update USER set tel='.$data.'  where id="your_id"';
 		$result=mysqli_query($conn, $myquery);
 
 		if(!$result){
